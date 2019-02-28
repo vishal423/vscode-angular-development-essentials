@@ -1,0 +1,33 @@
+{
+    "name": "angular-development-essentials",
+    "displayName": "Angular Development Essentials",
+    "description": "Curated set of angular extensions useful during development",
+    "author": "Vishal Mahajan",
+    "license": "MIT",
+    "version": "0.0.1",
+    "publisher": "vishal423",
+    "keywords": [
+        "Angular"
+    ],
+    "preview": true,
+    "engines": {
+        "vscode": "^1.31.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [
+        "angular.ng-template",
+        "johnpapa.angular2",
+        "auchenberg.vscode-browser-preview",
+        "msjsdiag.debugger-for-chrome",
+        "peterjausovec.vscode-docker",
+        "editorconfig.editorconfig",
+        "eamodio.gitlens",
+        "pkief.material-icon-theme",
+        "esbenp.prettier-vscode",
+        "ms-vscode.vscode-typescript-tslint-plugin",
+        "visualstudioexptteam.vscodeintellicode",
+        "natewallace.angular2-inline"
+    ]
+}
