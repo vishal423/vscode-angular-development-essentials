@@ -1,33 +1,68 @@
 {
-    "name": "angular-development-essentials",
-    "displayName": "Angular Development Essentials",
-    "description": "Curated set of angular extensions useful during development",
-    "author": "Vishal Mahajan",
-    "license": "MIT",
-    "version": "0.0.1",
-    "publisher": "vishal423",
-    "keywords": [
-        "Angular"
-    ],
-    "preview": true,
-    "engines": {
-        "vscode": "^1.31.0"
-    },
-    "categories": [
-        "Extension Packs"
-    ],
-    "extensionPack": [
-        "angular.ng-template",
-        "johnpapa.angular2",
-        "auchenberg.vscode-browser-preview",
-        "msjsdiag.debugger-for-chrome",
-        "peterjausovec.vscode-docker",
-        "editorconfig.editorconfig",
-        "eamodio.gitlens",
-        "pkief.material-icon-theme",
-        "esbenp.prettier-vscode",
-        "ms-vscode.vscode-typescript-tslint-plugin",
-        "visualstudioexptteam.vscodeintellicode",
-        "natewallace.angular2-inline"
-    ]
+  "name": "angular-development-essentials",
+  "displayName": "Angular Development Essentials",
+  "description": "Curated set of angular extensions useful during development",
+  "author": {
+    "name": "Vishal Mahajan",
+    "email": "vishal423@gmail.com",
+    "url": "https://twitter.com/vishal423"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "version": "0.0.1",
+  "publisher": "vishal423",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vishal423/vscode-angular-development-essentials.git"
+  },
+  "icon": "images/logo.ico",
+  "keywords": [
+    "Angular"
+  ],
+  "preview": true,
+  "engines": {
+    "vscode": "^1.30.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "angular.ng-template",
+    "johnpapa.angular2",
+    "auchenberg.vscode-browser-preview",
+    "msjsdiag.debugger-for-chrome",
+    "peterjausovec.vscode-docker",
+    "editorconfig.editorconfig",
+    "eamodio.gitlens",
+    "pkief.material-icon-theme",
+    "esbenp.prettier-vscode",
+    "ms-vscode.vscode-typescript-tslint-plugin",
+    "visualstudioexptteam.vscodeintellicode",
+    "natewallace.angular2-inline"
+  ],
+  "contributes": {
+    "configurationDefaults": {
+      "workbench.iconTheme": "material-icon-theme",
+      "breadcrumbs.enabled": true,
+      "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+      "editor.fontLigatures": true,
+      "editor.fontSize": 13,
+      "editor.formatOnType": true,
+      "[typescript]": {
+        "editor.formatOnSave": true
+      },
+      "[json]": {
+        "editor.formatOnSave": true
+      },
+      "files.associations": {
+        ".huskyrc": "json",
+        ".json": "json"
+      },
+      "files.exclude": {
+        "**/.git": true
+      },
+      "gitlens.views.repositories.files.layout": "tree",
+      "prettier.singleQuote": true,
+      "prettier.printWidth": 140
+    }
+  }
 }
