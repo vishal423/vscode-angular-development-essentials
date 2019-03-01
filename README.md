@@ -1,6 +1,96 @@
 # Angular Development Essentials
 
-Curated set of Visual Studio Code Angular extensions useful during development.
+Curated set of Visual Studio Code extensions to improve your development experience in `Angular`.
+
+## Editor Settings
+
+This pack contributes following language specific editor settings as default. You can override these in `User` or `Workspace` Settings.
+```
+"[scss]": {
+    "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', 'Droid Sans Fallback'",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 13,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.renderWhitespace": "all",
+    "editor.minimap.enabled": false
+}
+
+"[html]": {
+    "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', 'Droid Sans Fallback'",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 13,
+    "editor.formatOnSave": false,
+    "editor.formatOnType": true,
+    "editor.renderWhitespace": "all",
+    "editor.minimap.enabled": false
+}
+
+"[yaml]": {
+    "editor.autoIndent": true,
+    "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', 'Droid Sans Fallback'",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 13,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.insertSpaces": true,
+    "editor.renderWhitespace": "all",
+    "editor.tabSize": 4,
+    "editor.minimap.enabled": false
+}
+
+"[javascript]": {
+    "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', 'Droid Sans Fallback'",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 13,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.renderWhitespace": "all",
+    "editor.minimap.enabled": false
+}
+
+"[typescript]": {
+    "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', 'Droid Sans Fallback'",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 13,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.renderWhitespace": "all",
+    "editor.minimap.enabled": false
+}
+
+"[json]": {
+    "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', 'Droid Sans Fallback'",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 13,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.renderWhitespace": "all",
+    "editor.minimap.enabled": false
+}
+```
+
+## Other Recommended settings
+
+Add following in `User` or `Workspace` settings to improve your development experience in `Angular`.
+
+```
+"workbench.iconTheme": "material-icon-theme",
+"breadcrumbs.enabled": true,
+
+"files.associations": {
+    ".huskyrc": "json",
+},
+"files.exclude": {
+    "**/.git": true
+},
+
+"gitlens.views.repositories.files.layout": "tree",
+
+"prettier.singleQuote": true,
+"prettier.printWidth": 140
+```
+
 
 ## Extensions
 * [TSLint](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin) - Enables TSLint support
