@@ -47,12 +47,29 @@
       "editor.fontLigatures": true,
       "editor.fontSize": 13,
       "editor.formatOnType": true,
+      "[scss]": {
+        "editor.formatOnSave": true
+      },
+      "[html]": {
+        "editor.formatOnSave": false
+      },
+      "[yaml]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4,
+        "editor.autoIndent": true,
+        "editor.formatOnSave": true
+      },
+      "[javascript]": {
+        "editor.formatOnSave": true
+      },
       "[typescript]": {
         "editor.formatOnSave": true
       },
       "[json]": {
         "editor.formatOnSave": true
       },
+      "editor.renderWhitespace": "all",
+      "editor.minimap.enabled": false,
       "files.associations": {
         ".huskyrc": "json",
         ".json": "json"
