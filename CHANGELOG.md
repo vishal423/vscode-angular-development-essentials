@@ -1,7 +1,7 @@
 # Change Log
 All notable changes to the "angular-development-essentials" extension pack will be documented in this file.
 
-## [0.0.5]
+## [0.0.6]
 - Improve language specific editor default settings.
 
 ## [0.0.4]
