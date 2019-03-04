@@ -7,22 +7,24 @@ Curated set of Visual Studio Code extensions to improve your development experie
 This pack contributes following language specific editor settings as default. You can override these in `User` or `Workspace` Settings.
 ```
 "[scss]": {
+    "editor.autoIndent": true,
     "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', 'Droid Sans Fallback'",
     "editor.fontLigatures": true,
     "editor.fontSize": 13,
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
-    "editor.renderWhitespace": "all",
+    "editor.renderWhitespace": "boundary",
     "editor.minimap.enabled": false
 }
 
 "[html]": {
+    "editor.autoIndent": true,
     "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', 'Droid Sans Fallback'",
     "editor.fontLigatures": true,
     "editor.fontSize": 13,
     "editor.formatOnSave": false,
     "editor.formatOnType": true,
-    "editor.renderWhitespace": "all",
+    "editor.renderWhitespace": "boundary",
     "editor.minimap.enabled": false
 }
 
@@ -33,29 +35,29 @@ This pack contributes following language specific editor settings as default. Yo
     "editor.fontSize": 13,
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
-    "editor.insertSpaces": true,
-    "editor.renderWhitespace": "all",
-    "editor.tabSize": 4,
+    "editor.renderWhitespace": "boundary",
     "editor.minimap.enabled": false
 }
 
 "[javascript]": {
+    "editor.autoIndent": true,
     "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', 'Droid Sans Fallback'",
     "editor.fontLigatures": true,
     "editor.fontSize": 13,
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
-    "editor.renderWhitespace": "all",
+    "editor.renderWhitespace": "boundary",
     "editor.minimap.enabled": false
 }
 
 "[typescript]": {
+    "editor.autoIndent": true,
     "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', 'Droid Sans Fallback'",
     "editor.fontLigatures": true,
     "editor.fontSize": 13,
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
-    "editor.renderWhitespace": "all",
+    "editor.renderWhitespace": "boundary",
     "editor.minimap.enabled": false
 }
 
@@ -65,7 +67,7 @@ This pack contributes following language specific editor settings as default. Yo
     "editor.fontSize": 13,
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
-    "editor.renderWhitespace": "all",
+    "editor.renderWhitespace": "boundary",
     "editor.minimap.enabled": false
 }
 ```
