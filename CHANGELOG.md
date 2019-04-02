@@ -1,6 +1,9 @@
 # Change Log
 All notable changes to the "angular-development-essentials" extension pack will be documented in this file.
 
+## [0.0.7]
+- Set prettier as default editor formatter
+
 ## [0.0.6]
 - Improve language specific editor default settings.
 

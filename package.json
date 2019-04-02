@@ -49,7 +49,8 @@
         "editor.formatOnSave": true,
         "editor.formatOnType": true,
         "editor.renderWhitespace": "boundary",
-        "editor.minimap.enabled": false
+        "editor.minimap.enabled": false,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
       },
       "[html]": {
         "editor.autoIndent": true,
@@ -59,7 +60,8 @@
         "editor.formatOnSave": false,
         "editor.formatOnType": true,
         "editor.renderWhitespace": "boundary",
-        "editor.minimap.enabled": false
+        "editor.minimap.enabled": false,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
       },
       "[yaml]": {
         "editor.autoIndent": true,
@@ -69,7 +71,8 @@
         "editor.formatOnSave": true,
         "editor.formatOnType": true,
         "editor.renderWhitespace": "boundary",
-        "editor.minimap.enabled": false
+        "editor.minimap.enabled": false,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
       },
       "[javascript]": {
         "editor.autoIndent": true,
@@ -79,7 +82,8 @@
         "editor.formatOnSave": true,
         "editor.formatOnType": true,
         "editor.renderWhitespace": "boundary",
-        "editor.minimap.enabled": false
+        "editor.minimap.enabled": false,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
       },
       "[typescript]": {
         "editor.autoIndent": true,
@@ -89,7 +93,8 @@
         "editor.formatOnSave": true,
         "editor.formatOnType": true,
         "editor.renderWhitespace": "boundary",
-        "editor.minimap.enabled": false
+        "editor.minimap.enabled": false,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
       },
       "[json]": {
         "editor.autoIndent": true,
@@ -99,7 +104,8 @@
         "editor.formatOnSave": true,
         "editor.formatOnType": true,
         "editor.renderWhitespace": "boundary",
-        "editor.minimap.enabled": false
+        "editor.minimap.enabled": false,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
       }
     }
   }

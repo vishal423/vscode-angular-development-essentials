@@ -14,7 +14,8 @@ This pack contributes following language specific editor settings as default. Yo
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
     "editor.renderWhitespace": "boundary",
-    "editor.minimap.enabled": false
+    "editor.minimap.enabled": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
 
 "[html]": {
@@ -25,7 +26,8 @@ This pack contributes following language specific editor settings as default. Yo
     "editor.formatOnSave": false,
     "editor.formatOnType": true,
     "editor.renderWhitespace": "boundary",
-    "editor.minimap.enabled": false
+    "editor.minimap.enabled": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
 
 "[yaml]": {
@@ -36,7 +38,8 @@ This pack contributes following language specific editor settings as default. Yo
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
     "editor.renderWhitespace": "boundary",
-    "editor.minimap.enabled": false
+    "editor.minimap.enabled": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
 
 "[javascript]": {
@@ -47,7 +50,8 @@ This pack contributes following language specific editor settings as default. Yo
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
     "editor.renderWhitespace": "boundary",
-    "editor.minimap.enabled": false
+    "editor.minimap.enabled": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
 
 "[typescript]": {
@@ -58,7 +62,8 @@ This pack contributes following language specific editor settings as default. Yo
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
     "editor.renderWhitespace": "boundary",
-    "editor.minimap.enabled": false
+    "editor.minimap.enabled": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
 
 "[json]": {
@@ -68,7 +73,8 @@ This pack contributes following language specific editor settings as default. Yo
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
     "editor.renderWhitespace": "boundary",
-    "editor.minimap.enabled": false
+    "editor.minimap.enabled": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
 ```
 
