@@ -84,6 +84,7 @@ Add following in `User` or `Workspace` settings to improve your development expe
 
 ```
 "workbench.iconTheme": "material-icon-theme",
+"workbench.colorTheme": "Night Owl",
 "breadcrumbs.enabled": true,
 
 "files.associations": {
@@ -96,20 +97,29 @@ Add following in `User` or `Workspace` settings to improve your development expe
 "gitlens.views.repositories.files.layout": "tree",
 
 "prettier.singleQuote": true,
-"prettier.printWidth": 140
+"prettier.printWidth": 120
+
+"eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
 ```
 
 
 ## Extensions
-* [TSLint](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin) - Enables TSLint support
-* [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template) - Improves editing experience of external templates
 * [Angular Inline](https://marketplace.visualstudio.com/items?itemName=natewallace.angular2-inline) - Improves editing experience of inline templates.
-* [IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode) - AI assisted developer productivity
+* [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template) - Improves editing experience of external templates
 * [Angular Snippets](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2)- Angular snippets by John Papa
-* [Git Lens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) - Improves Git capabilities
-* [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - Enables Prettier support
-* [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) -  Enables EditorConfig support
-* [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) -  Use material design icons in explorer
+* [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer) - Colorizing matching brackets
+* [Browser Preview](https://marketplace.visualstudio.com/items?itemName=auchenberg.vscode-browser-preview) - Enables browser preview
 * [Chrome Debugger](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome) - Enables Chrome debugging
 * [Docker](https://marketplace.visualstudio.com/items?itemName=PeterJausovec.vscode-docker) -  Enables docker support
-* [Browser Preview](https://marketplace.visualstudio.com/items?itemName=auchenberg.vscode-browser-preview) - Enables browser preview
+* [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) -  Enables EditorConfig support
+* [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) - Integrates ESLint
+* [Git Lens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) - Improves Git capabilities
+* [IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode) - AI assisted developer productivity
+* [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) -  Use material design icons in explorer
+* [Night Owl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl) - Theme for the night owls out there
+* [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - Enables Prettier support
